@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+scikit-learn
+librosa
+soundfile
+torch
+transformers
+sentence-transformers
+openai-whisper
+faster-whisper
+spacy
+tqdm
+requests

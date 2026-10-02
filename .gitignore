@@ -1,0 +1,70 @@
+# ============================================================
+# SHL Grammar Scoring Engine
+# Never publish private challenge data or generated artifacts
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Private challenge data
+train/
+test/
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Dataset CSVs / generated feature tables / predictions
+*.csv
+
+# NumPy / model artifacts
+*.npy
+*.npz
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.pickle
+*.pkl
+
+# HuggingFace / model caches
+exp025_deberta_cache/
+exp026_fold_models/
+.cache/
+huggingface/
+transformers_cache/
+
+# Temporary / partial files
+*.partial
+*.partial.npy
+*.tmp
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local configuration / secrets
+.env
+.env.*
+config.toml
+
+# Keep these public documentation files
+!.gitignore
+!README.md
+!requirements.txt
